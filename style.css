@@ -63,8 +63,12 @@ body {
 }
 
 .continue-btn:hover {
-    background: rgb(10, 10, 10);
+    background: black;
     transform: scale(1.05);
+    border-radius: 0px;
+    border: 0px;
+    transition: ease-in;
+    transition-duration: 300ms;
 }
 
 #main-site {
